@@ -231,13 +231,10 @@ h6 {
 }
 /* Tile Components */
 .tile {
-  padding: 1.5em 1em;
-  background-color: #884c1d;
-  color: #fff;
-  margin-bottom: 2em;
+  margin: 0 auto 2em;
+  text-align: center;
 }
 
-.tile-title {
-  margin-top: 15px;
-  color: #fff;
+.tile img {
+  width: 100%;
 }
