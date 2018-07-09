@@ -36,8 +36,8 @@ h6 {
   text-transform: uppercase;
 }
 .btn-primary {
-  background-color: #366a04;
-  border-color: #366a04;
+  background-color: #4b900a;
+  border-color: #4b900a;
   color: #fff;
 }
 .btn-primary:hover,
@@ -45,13 +45,13 @@ h6 {
 .btn-primary:focus,
 .btn-primary:visited {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.15);
-  background-color: #884c1d;
-  border-color: #884c1d;
+  background-color: #4b900a;
+  border-color: #4b900a;
   color: #fff;
 }
 .btn-secondary {
-  background-color: #884c1d;
-  border-color: #884c1d;
+  background-color: #8ec725;
+  border-color: #8ec725;
   color: #fff;
 }
 .btn-secondary:hover,
@@ -91,7 +91,7 @@ h6 {
 }
 
 .footer {
-  background: #884c1d;
+  background: #8ec725;
   color: #fff;
 }
 
@@ -142,26 +142,18 @@ h6 {
 
 
 /* Sections*/
+.section-hero {
+  text-align: center;
+}
 .section-hero img {
   width: 100%;
 }
 
-@media (max-width: 992px) {
-  .section-primary h2,
-  .section-contact h2 {
-    font-size: 1.2em;
-  }
+.hero-heading {
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
-@media (max-width: 1200px) and (min-width: 993px) {
-  .section-banner .btn {
-    margin-top: 4em;
-  }
-}
-@media (max-width: 992px) {
-  .section-banner .btn {
-    margin-top: 1em;
-  }
-}
+
 .section-primary,
 .section-contact {
   background-color: rgba(155,155,155,0.10);
@@ -178,14 +170,27 @@ h6 {
   height: 100%;
 }
 
+.section-hero h2,
 .section-primary h2,
 .section-secondary h2,
 .section-contact h2 {
-  color: #4c2b11;
+  color: #4b900a;
   font-size: 2.25em;
+  margin-bottom: 0.25em;
 }
 
-
+@media (max-width: 992px) {
+  .section-hero h2,
+  .section-primary h2,
+  .section-contact h2,
+  .section-secondary h2 {
+    font-size: 1.25em;
+  }
+}
+.section-heading {
+  max-width: 600px;
+  margin: 0 auto 2em;
+}
 .section-contact .mainForm {
   background-color: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -195,16 +200,7 @@ h6 {
   padding: 2em;
   text-align: left;
 }
-section p {
-  margin-bottom: 1.5em;
-}
-@media (max-width: 992px) {
-  .section-primary h2,
-  .section-contact h2,
-  .section-secondary h2 {
-    font-size: 1.25em;
-  }
-}
+
 /* Card Components */
 .card {
   background-color: #fff;
@@ -216,7 +212,7 @@ section p {
   width: 100%;
 }
 .card-title {
-  color: #003359;
+  color: #4A4A4A;
   margin-top: 1em;
   padding-left: 2em;
   padding-right: 2em;
