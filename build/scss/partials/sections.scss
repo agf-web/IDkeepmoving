@@ -214,19 +214,19 @@ h6 {
 .card-title {
   color: #4A4A4A;
   margin-top: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
 }
 
 .card-title-small {
   font-size: 1.25em;
 }
 .card-content {
-  padding: 0.5em 2em 1.5em;
+  padding: 0.5em 0.75em 1.5em;
 }
 @media (max-width: 768px) {
   .card-title {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 /* Tile Components */
