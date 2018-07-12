@@ -340,6 +340,9 @@ AddDefaultCharset utf-8
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ - [env=proto:http]
 
+
+
+    RewriteMap lc int:tolower
     RewriteCond %{REQUEST_URI} [A-Z]
     RewriteRule ^.+\.html$ ${lc:%{REQUEST_URI}} [NC,R=301,L]
 
